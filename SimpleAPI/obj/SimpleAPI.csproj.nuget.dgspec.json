@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\SimpleAPI\\SimpleAPI.csproj": {}
+    "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\lambda-webai\\SimpleAPI\\SimpleAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\SimpleAPI\\SimpleAPI.csproj": {
+    "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\lambda-webai\\SimpleAPI\\SimpleAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\SimpleAPI\\SimpleAPI.csproj",
+        "projectUniqueName": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\lambda-webai\\SimpleAPI\\SimpleAPI.csproj",
         "projectName": "SimpleAPI",
-        "projectPath": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\SimpleAPI\\SimpleAPI.csproj",
+        "projectPath": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\lambda-webai\\SimpleAPI\\SimpleAPI.csproj",
         "packagesPath": "C:\\Users\\stval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\SimpleAPI\\obj\\",
+        "outputPath": "C:\\Users\\stval\\source\\repos\\invite\\source\\SimpleAPI\\lambda-webai\\SimpleAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stval\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,57 +34,22 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Amazon.Lambda.AspNetCoreServer.Hosting": {
-              "target": "Package",
-              "version": "[1.7.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.4, 8.0.4]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
